@@ -12,5 +12,9 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 =======
 #!/bin/bash
+<<<<<<< HEAD
 mkdir -m 751 my_dir
 >>>>>>> f88466fecc616138b774087eab267a6961a4f1d5
+=======
+chgrp school hello
+>>>>>>> e81ee4bb5d113dc66308c3d765fc00aaae555cc0
