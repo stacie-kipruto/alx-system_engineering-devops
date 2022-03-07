@@ -1,8 +1,2 @@
-<<<<<<< HEAD
-#/bin/bash
-find . -type d ! -path . -print | wc -l
-
-=======
 #!/bin/bash
-find . -type d ! -path . -print | wc -l
->>>>>>> 049a276d79644a73ed955f6eaa2eee1d60d8f85d
+ls -lR | grep ^d |wc-l
