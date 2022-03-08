@@ -1,7 +1,0 @@
-<<<<<<< HEAD
-#!/bin/bash
-tr -d "cC"
-=======
-#/bin/bash
-tr -d cC
->>>>>>> 3cded45b1a1db31fc8e9d76d0118d765b9a740ff
