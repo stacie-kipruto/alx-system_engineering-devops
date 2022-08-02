@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Prints "Best School" 10x, "bad luck" the 4th, "good luck" the 8th
+COUNTER=1
+while [ "$COUNTER" -le 10 ]
+do
+    if [ "$COUNTER" -eq 4 ]
+    then
+	echo "bad luck"
+    elif [ "$COUNTER" -eq 8 ]
+    then
+	echo "good luck"
+    else
+	echo "Best School"
+    fi
+    (( COUNTER++ ))
+done
